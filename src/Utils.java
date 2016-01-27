@@ -203,6 +203,7 @@ public class Utils implements ToolWindowFactory {
         timer.schedule(new DateTask(), 0, 1000);
 
         refreshIP();
+
     }
 
     class DateTask extends TimerTask {
